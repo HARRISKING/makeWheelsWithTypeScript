@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tabs组件</title>
+</head>
+<style>body {
+        font-size: 16px;
+    }
+
+    body,
+    ol,
+    div,
+    p,
+    ul,
+    li,
+    span,
+    a {
+        margin: 0;
+        padding: 0;
+    }
+
+    .tabsAll {
+        border: 1px solid #CBC7BC;
+        background-image: repeating-linear-gradient(-45deg, #D7D3C7, #D7D3C7 2px, #CECABE 2px, #CECABE 4px);
+        padding: 8px 0;
+        width: 31.25rem;
+        border-radius: 0.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem auto;
+    }
+
+    .tabsAll .tabs {
+        border: 1px solid #000;
+        width: 30rem;
+        background: #fff;
+    }
+
+    .tabBtns {
+        display: flex;
+
+    }
+
+    .tabBtns .tabElement {
+        list-style: none;
+        flex: 1;
+        width: 15rem;
+        height: 5rem;
+        background: linear-gradient(to bottom, #fff 0%, #F0EDE6 100%);
+        text-align: center;
+        line-height: 5rem;
+
+    }
+
+    .tabBtns .active {
+        background: linear-gradient(to bottom, #e5dfd3 0%, #d0c9b8 100%);
+        color: #847E6F;
+    }
+
+    .tabs .boxInner {}</style>
+<script src="/168726dbe96b3ce427e7fedce31bb0bc.js"></script>
+
+<body>
+    <div class="tabsAll">
+        <div class="tabs">
+            <ol class="tabBtns">
+                <li class="tabElement active">黑</li>
+                <li class="tabElement">白</li>
+            </ol>
+            <div class="boxInner">1️⃣</div>
+            <div class="boxInner">2️⃣</div>
+        </div>
+    </div>
+</body>
+
+</html>
