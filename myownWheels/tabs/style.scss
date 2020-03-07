@@ -36,14 +36,13 @@ a {
             flex: 1;
             width: 15rem;
             height: 5rem;
-            background: linear-gradient(to bottom, #fff 0%, #F0EDE6 100%);
             text-align: center;
             line-height: 5rem;
-
-        }
-        .active {
             background: linear-gradient(to bottom, #e5dfd3 0%, #d0c9b8 100%);
             color: #847E6F;
+        }
+        .active {
+            background: linear-gradient(to bottom, #fff 0%, #F0EDE6 100%);
         }
     }
     .boxInner{
